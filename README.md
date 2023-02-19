@@ -1,6 +1,6 @@
 <canvas id="custom" class="canvas" data-fragment-url="src/moon/moon.frag" data-textures="src/moon/moon.jpg" width="350px" height="350px"></canvas>
 
-# The Book of Shaders
+# Micah's Version of The Book of Shaders
 *by [Patricio Gonzalez Vivo](http://patriciogonzalezvivo.com/) and [Jen Lowe](http://jenlowe.net/)*
 
 This is a gentle step-by-step guide through the abstract and complex universe of Fragment Shaders.
