@@ -8,5 +8,9 @@ uniform float u_time;
 
 void main() {
 	vec2 st = gl_FragCoord.xy/u_resolution;
-	gl_FragColor = vec4(st.x,st.y,0.0,1.0);
+	float mousex = u_mouse.x / u_resolution.x;
+	float mousey = u_mouse.y / u_resolution.y;
+	float xx = st.x + mousex ;
+	float yy = st.y + mousey ;
+	gl_FragColor = vec4(xx,yy,0.0 + (abs(sin(u_time * 2.0))),1.0);
 }
